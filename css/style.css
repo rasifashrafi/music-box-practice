@@ -1,0 +1,73 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color:rgb(59, 46, 46);
+}
+
+.piano{
+  /* border: 1px solid black; */
+  border: 1px solid white;
+  display: flex;
+  min-width: 35vw;
+  max-width: 35vw;
+  height: auto;
+  margin-top: 10vw;
+}
+
+.key{
+  flex: 1;
+  min-height: 40vh;
+  border: 1px solid white;
+}
+#cKey{
+  background-color: rgb(85, 10, 10);
+  color: silver;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(0, 255, 242), 5px 5px 5px whitesmoke;
+  
+}
+#dKey{
+  background-color: rgb(73, 11, 11);
+  color: silver;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(0, 255, 242), 5px 5px 5px whitesmoke;
+}
+#eKey{
+  background-color: rgb(78, 39, 39);
+  color: silver;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(0, 255, 242), 5px 5px 5px whitesmoke;
+}
+#fKey{
+  background-color: rgb(112, 49, 49);
+  color: silver;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(0, 255, 242), 5px 5px 5px whitesmoke;
+}
+#gKey{
+  background-color: rgb(150, 52, 52);
+  color: silver;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(0, 255, 242), 5px 5px 5px whitesmoke;
+}
+#aKey{
+  background-color: rgb(170, 51, 51);
+  color: silver;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(0, 255, 242), 5px 5px 5px whitesmoke;
+}
+#bKey{
+  background-color: rgb(243, 105, 105);
+  color: silver;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(0, 255, 242), 5px 5px 5px whitesmoke;
+}
